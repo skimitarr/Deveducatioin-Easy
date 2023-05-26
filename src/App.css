@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  text-decoration: underline;
+  transition: color 0.3s ease-in-out;
+  background-color: aqua;
+}
+
+.nav-link:hover {
+  color: brown;
+}
+
+.card-wrapper {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 18rem;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.card-detail {
+  margin: 0 auto;
+  padding: 0 100px;
+  width: 100%;
+}
+
